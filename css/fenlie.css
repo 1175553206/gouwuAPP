@@ -1,0 +1,188 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-13 10:14:58
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-21 11:40:40
+*/
+@import url('base.css');
+/* 顶框开始 */
+header{
+	width: 100%;
+	height: 0.88rem;
+	background:#FA2B5C;
+	display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 0.4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.hd-left{
+	width: 0.4rem;
+	height: 0.35rem;
+	margin-top: 0.11rem;
+	
+}
+.hd-icon1{
+	font-family:"iconfont";
+	width: 0.4rem;
+ 	height: 0.35rem;
+	font-size: 0.35rem;
+	color: #fff;
+	font-style:normal;
+	float: left;
+	line-height:0.35rem; 
+}
+.hd-ml{
+	width: 3.8rem;
+	height: 0.66rem;
+	border-radius: 0.05rem;
+}
+.hd-ml input{
+    width: 3.78rem;
+	height: 0.64rem;
+	border-radius: 0.05rem;
+	border: 1px solid #f0f0f0;
+	background: #fff;
+	padding-left: 0.1rem;
+	float: left;
+}
+.hd-rt{
+	width: 0.4rem;
+	height: 0.35rem;
+	margin-top: 0.11rem;
+}
+.icon-xiaoxi{
+	font-size: 0.65rem;
+}
+
+/* 顶框结束 */
+
+
+/* 全部分类开始 */
+.dingdan{
+	display: block;
+	width: 100%;
+	height:0.8rem;
+    display: flex;
+	justify-content: space-between;
+    padding:0 0.3rem; 
+    margin-top: 0.88rem;
+}
+
+.dd-zi1{
+	font-size: 0.26rem;
+	color: #333333;
+	line-height: 0.8rem;
+}
+/* 全部分类结束 */
+/* 列表开始 */
+.liebiao{
+	width: 100%;
+	height: 2.5rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.3rem;
+}
+.lieb-dange{
+	width: 33%;
+	height: 100%;
+	display: flex;
+	align-content: space-between;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 0.3rem;
+}
+.lb-zhp{
+	display: block;
+	width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+}
+.lb-zhp img{
+	width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    float : left;
+}
+
+.lb-zi1{
+	display: block;
+	width:100%;
+    height: 0.5rem;
+    font-size: 0.26rem;
+    color: #333333;
+    text-align: center;
+}
+.lb-zi2{
+    width: 100%;
+    height: 0.3rem;
+    font-size: 0.24rem;
+    color: #999999;
+    text-align: center;
+}
+.kong{
+	width: 100%;
+	height: 60px
+}
+
+/* 列表结束 */
+
+/* 底部定位开始 */
+.dw{
+	width: 100%;
+	height: 0.9rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.3rem;
+	position:fixed;
+	bottom:0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	box-shadow: 0px -10px 40px 1px rgba(0, 0, 0, 0.1); 
+}
+.dw-xiaobox{
+	width: 0.9rem;
+	height:0.9rem;
+	
+}
+.dw-xiaobox:nth-child(3){
+	width: 1rem;
+}
+.dw-xiaobox a{
+	display: block;
+	width: 0.9rem;
+	height:0.9rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: center;
+	padding-bottom: 0.04rem
+}
+.dw-icon{
+	font-family:"iconfont";
+	font-style:normal;
+	width: 0.64rem;
+	height:  0.34rem;
+	font-size: 0.34rem;
+	color: #333;
+	line-height: 0.64rem;
+	text-align: center;
+}
+.icon-fenlei{
+	font-size: 0.36rem;
+}
+.dw-zi{
+	width: 100%;
+	margin-top: 0.12rem;
+     font-size: 0.2rem;
+     color: #333;
+     text-align: center;
+
+}
+.zi-bian,.icon-bian{
+	color: #FA2B5C;
+}
